@@ -147,7 +147,7 @@ export default function ReviewsSection() {
               ))}
             </div>
             <span className="text-sm font-medium text-[#6b6b6b]">
-              4.9 average rating from 50+ reviews
+              4.9 average rating from 60+ reviews
             </span>
           </div>
         </motion.div>
@@ -167,7 +167,7 @@ export default function ReviewsSection() {
           className="mt-12 text-center"
         >
           <a
-            href="https://g.page/review/IAI-NEH"
+            href="https://maps.app.goo.gl"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-[#c8a96e]/30 px-6 py-3 text-sm font-medium uppercase tracking-widest text-[#8b6f47] transition-all hover:border-[#c8a96e]/60 hover:bg-[#c8a96e]/5"

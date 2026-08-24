@@ -40,10 +40,10 @@ export default function AboutSection() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Image side */}
           <AnimatedSection className="relative">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
+            <div className="relative aspect-4/5 overflow-hidden rounded-2xl">
               <div className="absolute inset-0 bg-[#2d5a3d]/5" />
               <div
-                className="h-full w-full bg-gradient-to-br from-[#2d5a3d]/10 to-[#c8a96e]/10"
+                className="h-full w-full bg-linear-to-br from-[#2d5a3d]/10 to-[#c8a96e]/10"
                 style={{
                   backgroundImage:
                     "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232d5a3d' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",

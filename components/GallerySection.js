@@ -4,37 +4,44 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import Image from "next/image";
 
 const galleryImages = [
   {
     id: 1,
     label: "Mountain View Suite",
     gradient: "from-[#2d5a3d]/30 to-[#c8a96e]/30",
+    src: "/images/Image3.jpeg",
   },
   {
     id: 2,
     label: "The Veranda",
     gradient: "from-[#c8a96e]/30 to-[#8b6f47]/30",
+    src: "/images/Image5.jpeg",
   },
   {
     id: 3,
-    label: "Organic Garden",
+    label: "Bedroom Interior",
     gradient: "from-[#2d5a3d]/20 to-[#4a7c5e]/30",
+    src: "/images/Image6.jpeg",
   },
   {
     id: 4,
     label: "Cozy Living Room",
     gradient: "from-[#8b6f47]/20 to-[#c8a96e]/20",
+    src: "/images/Image7.jpeg",
   },
   {
     id: 5,
-    label: "Sunset Terrace",
+    label: "Parking Space",
     gradient: "from-[#c8a96e]/30 to-[#2d5a3d]/20",
+    src: "/images/Image8.jpeg",
   },
   {
     id: 6,
     label: "Bedroom Interior",
     gradient: "from-[#4a7c5e]/20 to-[#8b6f47]/20",
+    src: "/images/Image3.jpeg",
   },
 ];
 
@@ -91,6 +98,12 @@ export default function GallerySection() {
               {/* Gradient placeholder as image substitute */}
               <div
                 className={`h-full w-full bg-gradient-to-br ${image.gradient} transition-transform duration-700 group-hover:scale-105`}
+              />
+              <Image
+                src={image.src}
+                alt={image.label}
+                fill
+                className="object-cover"
               />
               {/* Subtle pattern overlay */}
               <div className="absolute inset-0 bg-[#1a1a1a]/10" />
