@@ -134,10 +134,10 @@ export default function Footer() {
             </p>
             <p className="mt-1 text-sm text-[#a0a0a0]">
               <a
-                href="mailto:hello@iai-neh.com"
+                href="lammawrie@gmail.com"
                 className="hover:text-white transition-colors"
               >
-                hello@iai-neh.com
+                lammawrie@gmail.com
               </a>
             </p>
           </div>
