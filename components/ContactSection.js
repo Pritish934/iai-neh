@@ -5,9 +5,10 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 
 const contactDetails = {
-  phone: "+91 98765 43210",
-  email: "hello@iai-neh.com",
-  address: "IAI-NEH Homestay, Hill Station Road, Meghalaya, India",
+  phone: "+91 9819133594",
+  email: "lammawrie@gmail.com",
+  address:
+    "IAI-NEH Homestay, Lumkynsal Smit, Madan Stadium(On the way to Chandra Park)",
   mapEmbed:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.789!2d91.123456!3d25.567890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDM0JzA0LjQiTiA5McKwMDcnMjQuMCJF!5e0!3m2!1sen!2sin!4v1234567890",
 };
